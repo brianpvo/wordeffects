@@ -26,7 +26,7 @@ int main(int argc, const char * argv[]) {
         
             
             // print NSString object
-            NSLog(@"Input was: %@", [inputString uppercaseString]);
+            NSLog(@"Input was: %@", [inputString lowercaseString]);
         }
     }
     return 0;
