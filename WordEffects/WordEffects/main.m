@@ -23,9 +23,10 @@ int main(int argc, const char * argv[]) {
             
             // convert char array to an NSString object
             NSString *inputString = [NSString stringWithUTF8String:inputChars];
+        
             
             // print NSString object
-            NSLog(@"Input was: %@", inputString);
+            NSLog(@"Input was: %@", [inputString uppercaseString]);
         }
     }
     return 0;
